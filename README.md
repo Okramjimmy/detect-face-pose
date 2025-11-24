@@ -1,5 +1,35 @@
 # Face Detection and Pose Estimation
 
+## Setup Instructions
+
+Follow these steps to set up the environment for running the script.
+
+### 1. Create Conda Environment
+
+First, create a Conda environment with Python 3.7.
+
+```bash
+conda create -n face_venv_3.7 python=3.7
+```
+
+### 2. Activate Environment
+
+Activate the newly created environment.
+
+```bash
+conda activate face_venv_3.7
+```
+
+### 3. Install Dependencies
+
+Install the required packages using the provided requirements file.
+
+*Note: The requirements file is named `requiremens.txt`. It is recommended to rename it to `requirements.txt`.*
+
+```bash
+pip install -r requiremens.txt
+```
+
 ## How to Run
 
 ### Command-Line Options
